@@ -1,0 +1,1 @@
+<textarea ><?php echo $hienthi; ?></textarea><br/>

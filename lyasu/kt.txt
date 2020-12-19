@@ -1,0 +1,13 @@
+mysql -h 127.0.0.1 --port=3306 -u root --password
+mysql.exe -u root --password
+
+- tạo : create database [databasename];
+- hiện: show databases;
+-truy cập vào bảng: use [db name];
+- hiện bảng; show tables;
+- hiện cột, kiểu giá trị: describe [table name]; show columns from [table name];
+- hiện giá trị trong bảng: SELECT * FROM [table name];
+
+-xuất tất cả, sao lưu data: [mysql dir]/bin/mysqldump -u root -ppassword --opt >/tmp/alldatabases.sql
+-xuất bảng; [mysql dir]/bin/mysqldump -c -u username -ppassword databasename tablename > /tmp/databasename.tablename.sql
+- khôi phục dữ liệu từ bảng sao lưu: [mysql dir]/bin/mysql -u username -ppassword databasename < /tmp/databasename.sql

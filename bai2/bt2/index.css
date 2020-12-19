@@ -1,0 +1,19 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.Asu{
+	text-align: center;
+}
+.cnt{
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+td{
+	width: 100px;
+}
+th{
+	text-align: center;
+	width: 800px;
+}
